@@ -2,6 +2,45 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: blue;
+}
+
+header {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+header .heading {
+  font-size: 32px;
+}
+
+.nav-list {
+  text-align: center;
+}
+
+.nav-list-item {
+  padding: 15px 20px 15px 20px;
+  display: inline-block;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  width: 200px;
+  height: 200px;
+}
+
+.main1 {
+  background-color: e6ffe9;
+}
+
+
+footer {
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
 }
 
 .footer-text {
