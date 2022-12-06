@@ -2,44 +2,97 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: blue;
 }
 
 header {
-  padding: 20px 20px;
+/*？？？*/
+  width: 100%; /*いらないのでは？*/
+  padding: 20px 0px;
   text-align: center;
 }
 
-header .heading {
-  font-size: 32px;
-}
+/*header .heading {*/
+/*  font-size: 32px;*/
+/*}*/
+/*h1 で既に32pxになっているため不要*/
 
 .nav-list {
   text-align: center;
+  padding: 15px 0;
+  /*15px=上下 0=左右*/
+  border-top: solid silver;
+  border-bottom: solid silver;
+  
 }
 
 .nav-list-item {
-  padding: 15px 20px 15px 20px;
+/*？？？*/
+  list-style: none; /*いらないのでは？*/
+  margin: 0 20px; /*padding と margin の違いが分からない*/
   display: inline-block;
 }
 
 .main {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+}
+
+.main-visual {
+  max-width: 800px;
+  flex-grow:1;
   padding: 50px;
-  width: 200px;
-  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main-visual > div {
+  height: 200px; /*要素の高さ*/
+  flex-basis: 200px; /*Flexアイテムの横幅*/
 }
 
-.main1 {
-  background-color: e6ffe9;
+.color1 {
+  background-color: #e6ffe9;
 }
-
+.color2 {
+  background-color: #cbffd3;
+}
+.color3 {
+  background-color: #aeffbd;
+}
+.color4 {
+  background-color: #93ffab;
+}
+.color5 {
+  background-color: #f3ffd8;
+}
+.color6 {
+  background-color: #edffbe;
+}
+.color7 {
+  background-color: #e9ffa5;
+}
+.color8 {
+  background-color: #e4ff8d;
+}
+.color9 {
+  background-color: #d9e5ff;
+}
+.color10 {
+  background-color: #bad3ff;
+}
+.color11 {
+  background-color: #a4c6ff;
+}
+.color12 {
+  background-color: #8eb8ff;
+}
 
 footer {
   text-align: center;
   line-height: 120px;
+  /*width: 100%;*/
+  /*line-height: 120px; */
+  /*不要なのでは？*/
   background-color: #848282;
 }
 
