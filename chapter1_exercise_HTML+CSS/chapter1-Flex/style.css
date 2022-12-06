@@ -3,3 +3,65 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.header {
+  background-color: fuchsia;
+  /*いらない width: 100%;*/
+  padding: 30px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.header > div {
+  background-color: plum;
+  margin: 0px 10px;
+  height: 70px;
+  flex-basis:140px;
+}
+.header > :first-child {
+  margin-right: auto;
+}
+
+.main {
+    /*いらない width: 100%;*/
+    /*いらない background-color: #A9A9A9;*/
+    display: flex;
+    justify-content: center;
+}
+.left {
+  width: 300px;
+  /*いらない height: auto;*/
+  background-color: palegreen;
+}
+
+.right {
+  background-color: green;
+  max-width: 700px;
+  flex-grow:1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.right > div {
+  background-color: yellow;
+  height: 130px;
+  flex-basis: 200px;
+  margin: 10px;
+}
+
+.footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #00BFFF;
+    display: flex;
+    justify-content: center;
+    /*いらない align-items: center;*/
+    flex-wrap: wrap;
+}
+.footer > div {
+  background-color: aqua;
+  margin: 10px;
+  height: 40px;
+  flex-basis: 45%;
+  max-width: 600px;
+}
