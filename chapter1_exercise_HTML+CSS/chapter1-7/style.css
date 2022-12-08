@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #6c6b6b;
 }
 
 .header-visual {
@@ -13,19 +12,31 @@
     background-position: bottom;
 }
 .header-text {
-    padding: 20px 20px;
+    padding: 20px;
 }
 
 main {
-    padding: 50px 0;
     width: 840px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
-.box {
-    height: 1400px; /*仮*/
-    background-color: orange;/*仮*/
+.main-item1 {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
 }
-
-.main-item{
-    margin: 0 auto;
+.main-item2 {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+.main-item3 {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+.main-item4 {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
